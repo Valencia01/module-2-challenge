@@ -8,3 +8,32 @@
     background-position: center;
 }
 
+.main-project img {
+
+    border: solid 5px rgb(100, 197, 222);
+}
+
+.minor-projects img {
+
+    border: solid 5px rgb(100, 197, 222);
+}
+
+.work h3 {
+    display:inline;
+    padding: 10px 50px 50px 10px;
+    background-color: rgb(100, 197, 222);
+    font-size: 170%;
+    position: relative;
+    bottom: -120px;
+    left: 0px;
+    
+}
+
+.work h4 {
+    line-height: 0px;
+    font-size: 90%;
+    padding-left: 10px;
+    position: relative;
+    bottom: -120px;
+    left: 0px;
+}
