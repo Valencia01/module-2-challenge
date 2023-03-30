@@ -156,3 +156,32 @@ a {
     bottom: -120px;
     left: 0px;
 }
+
+.contact-me h2 {
+    display: inline-block;
+    padding: 40px 30px 40px 126px;
+    font-size: 45px;
+    border-right: solid thick rgb(40, 112, 131);
+    color: rgb(40, 112, 131);
+}
+
+.contact-me ul {
+    list-style-type: none;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.contact-me ul li {
+
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 20px;
+
+}
+
+.contact-links {
+    float: right;
+    margin-top: 90px;
+    margin-right: 100px;
+    right: 200px;
+}
