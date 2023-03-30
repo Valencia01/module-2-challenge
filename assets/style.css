@@ -1,11 +1,63 @@
 
-.background {
-    height: 150px;
-    width: 100%;
+body { 
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+
+    background-color: rgb(74, 75, 75);;
+    color: rgb(100, 197, 222);
+    margin: 0;
+    padding: 0;
+
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    color:rgb(74, 75, 75);
+    background-color: rgb(100, 197, 222);
+    background-position: left;
+    padding: 0px 20px 0px 50px;
+    
+}
+
+.main-nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+}
+
+
+.main-nav ul {
+    list-style-type: none;
+    margin-right: 25px;
     margin-bottom: 25px;
+}
+
+.main-nav ul li {
+
+    display: inline-block;
+    margin-left: 25px;
+    text-decoration-line: underline;  
+    text-decoration-thickness: 15%;
+    font-size: 20px;
+
+}
+
+a {
+    color: rgb(100, 197, 222);
+    text-decoration: none;
+}
+
+.background {
+    height: 190px;
+    width: 100%;
     background-image: url("../assets/images/Background.PNG");
     background-size: cover;
     background-position: center;
+
 }
 
 .main-project img {
