@@ -57,7 +57,74 @@ a {
     background-image: url("../assets/images/Background.PNG");
     background-size: cover;
     background-position: center;
+    margin-bottom: 20px;
 
+}
+
+.about-me h2 {
+    display: inline-block;
+    padding: 40px 30px 40px 160px;
+    border-right: solid thick rgb(40, 112, 131);
+    color: rgb(40, 112, 131);
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+
+.about-me p {
+    display: inline-block;
+    position: absolute;
+    padding: 30px 30px 30px 30px;
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 100px;
+    
+}
+
+.work h2 {
+    display: inline-block;
+    padding: 40px 30px 800px 243px;
+
+    font-size: 45px;
+    border-right: solid thick rgb(40, 112, 131);
+    color: rgb(40, 112, 131);
+
+}
+
+.project1 {
+
+    position: absolute;
+    right: 0px;
+    top: 540px;
+    margin-right: 130px;
+
+}
+
+.project2 {
+    position: absolute;
+    right: 0px;
+    top: 1050px;
+    margin-right: 590px;
+}
+
+.project4 {
+    position: absolute;
+    right: 0px;
+    top: 1250px;
+    margin-right: 590px;
+}
+
+.project3 {
+    position: absolute;
+    top: 1050px;
+    margin-right: 130px;
+    right: 0px;
+}
+
+.project5 {
+    position: absolute;
+    right: 0px;
+    top: 1250px;
+    margin-right: 130px;
 }
 
 .main-project img {
