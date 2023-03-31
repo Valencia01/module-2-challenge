@@ -1,9 +1,10 @@
-
+/* Makes sure the headings and background image goes from egde to edge */
 body { 
     margin: 0;
     padding: 0;
 }
 
+/* this is the gray bar at the top as the header */
 .header {
 
     background-color: rgb(74, 75, 75);;
@@ -13,6 +14,7 @@ body {
 
 }
 
+/* this changes the title font size and adds */
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -23,19 +25,21 @@ body {
     
 }
 
+/* This moves the navigation to where it is */
 .main-nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
 }
 
-
+/* This clears the formatting of the list */
 .main-nav ul {
     list-style-type: none;
     margin-right: 25px;
     margin-bottom: 25px;
 }
 
+/* This places the list items next to eachother and underlines the items while changing the font size */
 .main-nav ul li {
 
     display: inline-block;
@@ -46,11 +50,13 @@ body {
 
 }
 
+/* changes the color of all anchor elements */
 a {
     color: rgb(100, 197, 222);
     text-decoration: none;
 }
 
+/* formats the background image and positions it */
 .background {
     height: 190px;
     width: 100%;
@@ -61,6 +67,7 @@ a {
 
 }
 
+/* places the about me header on the left and adds a border on the right */
 .about-me h2 {
     display: inline-block;
     padding: 40px 30px 40px 160px;
@@ -70,6 +77,7 @@ a {
     font-size: 45px;
 }
 
+/* places the paragraph on the right of the about me header and changes the font size */
 .about-me p {
     display: inline-block;
     position: absolute;
@@ -80,6 +88,7 @@ a {
     
 }
 
+/* places the work header on the left and a border on the right */
 .work h2 {
     display: inline-block;
     padding: 40px 30px 800px 243px;
@@ -90,6 +99,7 @@ a {
 
 }
 
+/* formates the project 1 picture */
 .project1 {
 
     position: absolute;
@@ -99,6 +109,7 @@ a {
 
 }
 
+/* formates the project 2 picture */
 .project2 {
     position: absolute;
     right: 0px;
@@ -106,6 +117,7 @@ a {
     margin-right: 590px;
 }
 
+/* formates the project 4 picture */
 .project4 {
     position: absolute;
     right: 0px;
@@ -113,6 +125,7 @@ a {
     margin-right: 590px;
 }
 
+/* formates the project 3 picture */
 .project3 {
     position: absolute;
     top: 1050px;
@@ -120,6 +133,7 @@ a {
     right: 0px;
 }
 
+/* formates the project 5 picture */
 .project5 {
     position: absolute;
     right: 0px;
@@ -127,16 +141,19 @@ a {
     margin-right: 130px;
 }
 
+/* adds a border around the project 1 picture */
 .main-project img {
 
     border: solid 5px rgb(100, 197, 222);
 }
 
+/* adds a border around the project 2-5 pictures */
 .minor-projects img {
 
     border: solid 5px rgb(100, 197, 222);
 }
 
+/* adds a header and background color over each project image */
 .work h3 {
     display:inline;
     padding: 10px 50px 50px 10px;
@@ -148,6 +165,7 @@ a {
     
 }
 
+/* adds a subheading over each project image */
 .work h4 {
     line-height: 0px;
     font-size: 90%;
@@ -157,6 +175,7 @@ a {
     left: 0px;
 }
 
+/* places the contact me header on the left and a border on the right */
 .contact-me h2 {
     display: inline-block;
     padding: 40px 30px 40px 126px;
@@ -165,12 +184,14 @@ a {
     color: rgb(40, 112, 131);
 }
 
+/* clears bullet point format of the list */
 .contact-me ul {
     list-style-type: none;
     margin-right: 25px;
     margin-bottom: 25px;
 }
 
+/* places the list items side by side */
 .contact-me ul li {
 
     display: inline-block;
@@ -179,9 +200,10 @@ a {
 
 }
 
+/* moves all the items to the right of the contact me header */
 .contact-links {
     float: right;
     margin-top: 90px;
-    margin-right: 100px;
     right: 200px;
+    padding-right: 250px;
 }
