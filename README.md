@@ -1,10 +1,9 @@
-# module-2-challenge
+# Professional Portfolio
 
-Professional Portfolio
 
 ## Description
 
-A collection of projects in a website used as a Portfolio also displaying contact information
+This is a collection of my previous projects along with ways to contact me in one concise website.
 
 ## Getting Started
 
@@ -15,11 +14,11 @@ A collection of projects in a website used as a Portfolio also displaying contac
 
 ### Installing
 
-[Repository](https://github.com/Valencia01/module-2-challenge)
+[Repository](https://github.com/Valencia01/professional-portfolio)
 
 ### Executing program
 
-[Pages](https://valencia01.github.io/module-2-challenge/)
+[Pages](https://valencia01.github.io/professional-portfolio/)
 
 ## Author(s)
 
@@ -30,6 +29,14 @@ Karina Valencia
 * 0.1
     * Initial Release
 
+* 0.2
+    * Fixed the index broken links
+    * Changed the name
+    * Improved the README
+    * Added personal info and images
+    * Opted for flexbox in the css instead
+    * Included most recent project 
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
@@ -37,3 +44,8 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 ## Acknowledgments
 
 N/A
+
+## Deployed Program
+
+![Base Website]()
+
